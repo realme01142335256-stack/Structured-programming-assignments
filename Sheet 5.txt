@@ -1,0 +1,41 @@
+*Sheet 5
+(1)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x ;
+
+
+for (int i = 0; i < 5; i++){cin >>x;
+
+if (x < 0) {continue;}
+
+cout << x;
+
+}
+
+    return 0;
+}
+
+
+(2)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x , max = 0 ;
+
+
+for (int i = 0; i < 10; i++){cin >>x;
+
+if (x < 0) {continue;}
+if (x == 50) {break;}
+if (x > max ) {max = x;}
+
+
+
+}
+cout << "The largest number is : "<< max;
+    return 0;
+}

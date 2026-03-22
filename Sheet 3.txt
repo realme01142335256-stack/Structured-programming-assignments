@@ -1,0 +1,77 @@
+*Sheet 3
+---------------------------------------------------------------------------------------
+(1)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    
+cin >> x;
+
+    if (x > 0) {cout << "Positive number "; }
+
+    else if (x == 0) {cout << "Equal to zero";}
+
+    else {cout <<"Negative number";
+    }
+
+    return 0;
+}
+
+
+(2)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x ;
+    string u;
+
+    cout << "Enter the user name"<<endl;
+cin >> u;
+cout << "Enter the password"<<endl;
+cin >> x;
+
+    if (x == 1234 && u == "admin") {cout << "Login succesful "; }
+
+    else if (x != 1234 && u == "admin") {cout << "Wrong password "; }
+
+    else {cout <<"User not found";
+    }
+
+    return 0;
+}
+
+
+
+(3)
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x ;
+
+    cin >> x;
+
+    switch (x){
+
+    case 1: cout <<"January";
+    break;
+
+    case 2: cout << "February";
+    break;
+
+    case 3: cout << "March";
+    break;
+
+    case 4: cout <<"April";
+    break;
+
+    default : cout << "Invalid month";
+
+    }
+
+    return 0;
+}
+
